@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Gusarov_oop_laba1.cpp" />
+    <ClCompile Include="Gusarov_group.cpp" />
+    <ClCompile Include="gusarov_main.cpp" />
+    <ClCompile Include="Gusarov_student.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gusarov_group.h" />
+    <ClInclude Include="Gusarov_student.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
