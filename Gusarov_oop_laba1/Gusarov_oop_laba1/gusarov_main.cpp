@@ -1,4 +1,4 @@
-// samedov.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+// gusarov.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 
 #include <iostream>
@@ -17,7 +17,7 @@ int main()
     Gusarov_group abc;
 
     while (true) {
-        cout << "Размер :";
+        cout << "Размер: ";
         cout << abc.list.size() << endl;
         int command;
 
@@ -26,7 +26,7 @@ int main()
             << "3. Загрузить группу" << endl
             << "4. Сохранить группу" << endl
             << "5. Очистить группу\n" << endl
-            << "Выберите команнду: ";
+            << "Выберите команду: ";
         cin >> command;
         switch (command) {
 
@@ -62,23 +62,3 @@ int main()
         }
     }
 }
-
-
-//fout << a.age << std::endl << a.name << std::endl;
-//fout << b.age << std::endl << b.name << std::endl;
-//fout.close();
-//a.age = 0;
-//a.f2(file);
-//a.f2(file);
-
-//std::cout << a.age;
-
-//for (;;) {
-//    int command;
-//    cout << "1: Добавить студента" << endl;
-//    cout << "2: Вывести данные студента" << endl;
-//    cout << "3: Считать данные из файла" << endl;
-//    cout <<  "4: Загрузить данные в файл" << endl;
-//        
-
-//}
